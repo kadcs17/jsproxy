@@ -27,9 +27,9 @@ jsproxy_config({
       },
     },
     'mysite': {
-      label: '当前站点',
+      label: 'Proxy.kadcs.link',
       lines: {
-        [location.host]: 1,
+        'proxy.kadcs.link:443': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
